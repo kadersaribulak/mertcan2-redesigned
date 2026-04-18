@@ -378,7 +378,7 @@ export default function RoomsPage() {
             <div style={{ fontSize:'0.65rem', letterSpacing:'0.22em', textTransform:'uppercase', color:'var(--gold)', marginBottom:'1.2rem', fontFamily:'Jost,sans-serif' }}>{l.contact}</div>
             <div style={{ fontSize:'0.95rem', color:'var(--muted)', lineHeight:2.1 }}>
               <div>+90 533 087 82 95</div>
-              <div>info@mertcanpansiyon.com</div>
+              <div>mertcanpansiyon@gmail.com</div>
             </div>
           </div>
           <div>

@@ -364,7 +364,7 @@ export default function RoomsPage() {
 
       {/* ─── FOOTER ─── */}
       <footer className="footer">
-        <div className="site-container" className="footer-grid" style={{ padding:'4rem 2rem 0', display:'grid', gridTemplateColumns:'1.5fr 1fr 1fr', gap:'3rem' }}>
+        <div className="site-container footer-grid" style={{ padding:'4rem 2rem 0', display:'grid', gridTemplateColumns:'1.5fr 1fr 1fr', gap:'3rem' }}>
           <div>
             <Link href="/" style={{ fontFamily:'Playfair Display,serif', fontSize:'1.4rem', letterSpacing:'0.04em', color:'var(--text)', textDecoration:'none', display:'block', marginBottom:'0.75rem' }}>{l.brand}</Link>
             <div style={{ width:'40px', height:'1px', background:'var(--gold)', marginBottom:'1rem' }} />

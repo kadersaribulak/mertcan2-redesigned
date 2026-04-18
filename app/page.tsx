@@ -451,7 +451,7 @@ export default function Home() {
         <motion.div style={{position:'relative',zIndex:3,borderTop:'1px solid rgba(255,255,255,0.06)',background:'rgba(13,17,23,0.72)',backdropFilter:'blur(16px)'}}
           initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.95}}
         >
-          <div className="site-container" className="stats-bar-grid" style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)'}}>
+          <div className="site-container stats-bar-grid" style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)'}}>
             {[{l:l.stat1L,v:l.stat1V},{l:l.stat2L,v:l.stat2V},{l:l.stat3L,v:l.stat3V},{l:l.stat4L,v:l.stat4V}].map((s,i)=>(
               <div key={i} style={{padding:'1.4rem 0',borderRight:i<3?'1px solid rgba(255,255,255,0.05)':'none',paddingLeft:i>0?'2rem':0}}>
                 <div style={{fontSize:'0.6rem',letterSpacing:'0.2em',textTransform:'uppercase',color:'var(--gold)',marginBottom:'5px',fontFamily:'Jost,sans-serif'}}>{s.l}</div>
@@ -909,7 +909,7 @@ export default function Home() {
 
       {/* ══════════════ FOOTER ══════════════ */}
       <footer className="footer">
-        <div className="site-container" className="footer-grid" style={{padding:'4rem 2rem 0',display:'grid',gridTemplateColumns:'1.6fr 1fr 1fr',gap:'3rem'}}>
+        <div className="site-container footer-grid" style={{padding:'4rem 2rem 0',display:'grid',gridTemplateColumns:'1.6fr 1fr 1fr',gap:'3rem'}}>
           <div>
             <div style={{display:'flex', alignItems:'center', gap:'12px', marginBottom:'0.75rem'}}>
               <Image src="/logo.png" alt="Logo" width={36} height={44} style={{objectFit:'contain', opacity:0.85, flexShrink:0}} />
